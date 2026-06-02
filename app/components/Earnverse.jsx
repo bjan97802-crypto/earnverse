@@ -426,7 +426,7 @@ RULES:
       <style>{CSS}</style>
       <div className="grid-bg" /><div className="orb1" /><div className="orb2" />
 
-      <nav style={{ position:"relative", zIndex:10, display:"flex", alignItems:"center", justifyContent:"space-between" }} className="nav-pad" style={{ padding:"18px 40px", borderBottom:"1px solid rgba(255,255,255,.04)", position:"relative", zIndex:10 }}>
+      <nav className="nav-pad" style={{ padding:"18px 40px", borderBottom:"1px solid rgba(255,255,255,.04)", position:"relative", zIndex:10, display:"flex", alignItems:"center", justifyContent:"space-between" }}>
         <div className="logo-font" style={{ fontSize:20 }}>EARN<span className="logo-span">VERSE</span></div>
         <div style={{ display:"flex", alignItems:"center", gap:12 }}>
           <div style={{ display:"flex", alignItems:"center", gap:6, padding:"5px 14px", borderRadius:20, background:"rgba(16,185,129,.08)", border:"1px solid rgba(16,185,129,.2)", fontSize:12, color:"#10b981" }}>
